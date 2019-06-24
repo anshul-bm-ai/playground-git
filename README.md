@@ -45,6 +45,12 @@ git merge origin/master
 ```
 This is better than directly doing git pull.
 
+## Get back to one commit
+This helps also when you want to revert back a recent merge which you accidently did
+```
+git reset --hard HEAD~1
+```
+
 ## Rules
 1. Always go to your master and do "git pull" for it so that you should be always upto date with remote master. But I suggest use "git fetch" and then run "git diff master origin/master" to check out the differences in the files, change them so that there wont be any conflicts and then run "git merge origin/master"
 
