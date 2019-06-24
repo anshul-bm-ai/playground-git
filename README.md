@@ -45,7 +45,7 @@ git merge origin/master
 ```
 This is better than directly doing git pull.
 
-## Get back to one commit
+## get back to one commit previous
 This helps also when you want to revert back a recent merge which you accidently did
 ```
 git reset --hard HEAD~1
